@@ -1,4 +1,12 @@
 # 📱 Pemrograman Berbasis Perangkat Bergerak (PBPB)
+
+![TYPESCRIPT](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![VUE JS](https://img.shields.io/badge/VUE_JS-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![IONIC](https://img.shields.io/badge/IONIC-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
+![ANDROID STUDIO](https://img.shields.io/badge/ANDROID_STUDIO-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![VISUAL STUDIO CODE](https://img.shields.io/badge/VISUAL_STUDIO_CODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
 Repositori ini berisi Praktikum Tugas Mata Kuliah Pemrograman Berbasis Perangkat Bergerak. Proyek ini dibagi menjadi tiga bagian utama, mencakup dasar-dasar TypeScript/JavaScript dan pengembangan aplikasi mobile hybrid menggunakan kerangka kerja Ionic (Vue/Capacitor) kemudian dilakukan Build Up ke Android Studio dengan
 menggunakan Emulator HP Android.
 
@@ -63,8 +71,8 @@ Untuk Soal2 & Soal3, bisa lakukan hal yang sama seperti `soal1` tadi. `tsc` berf
 ## ⚙️ Petunjuk Penggunaan Untuk Tugas 2 & Tugas 3 (Proyek Ionic)
 Untuk menjalankan proyek **`tugas2`** atau **`tugas3`** secara lokal, ikuti langkah-langkah umum di bawah ini:
 ### Persyaratan
-Pastikan Anda telah menginstal:
-* Node.js (disarankan versi LTS)
+Pastikan Anda telah menginstal dan memasang:
+* Node.JS (disarankan versi LTS)
 * Powershell/Terminal/Git
 * Android Studio (untuk deployment native Android)
 
