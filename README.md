@@ -1,43 +1,40 @@
 # 📱 Pemrograman Berbasis Perangkat Bergerak (PBPB)
-
-Repositori ini berisi implementasi tugas-tugas mata kuliah Pemrograman Berbasis Perangkat Bergerak. Proyek ini dibagi menjadi tiga bagian utama, mencakup dasar-dasar TypeScript/JavaScript 
-dan pengembangan aplikasi mobile hybrid menggunakan kerangka kerja Ionic (Vue/Capacitor).
+Repositori ini berisi Praktikum Tugas Mata Kuliah Pemrograman Berbasis Perangkat Bergerak. Proyek ini dibagi menjadi tiga bagian utama, mencakup dasar-dasar TypeScript/JavaScript dan pengembangan aplikasi mobile hybrid menggunakan kerangka kerja Ionic (Vue/Capacitor) kemudian dilakukan Build Up ke Android Studio dengan
+menggunakan Emulator HP Android.
 
 ---
 
 ## 🛠️ Teknologi dan Kerangka Kerja
-
 Proyek ini dikembangkan menggunakan kombinasi teknologi berikut:
+
+### Alat Utama (Tools)
+* **Visual Studio Code (VS Code):** Digunakan sebagai **Code Editor utama** untuk pengembangan, pengeditan, dan *debugging* kode web (Vue/Ionic/TypeScript) di folder `tugas1/`, `tugas2/`, dan `tugas3/`.
+* **Android Studio:** Digunakan sebagai **Integrated Development Environment (IDE)** untuk membangun (*build*), mengompilasi, dan menginstal aplikasi Android ke perangkat fisik atau emulator baik untuk proyek `tugas2/` dan `tugas3/`).
 
 * **Framework Utama:**
     * **Vue.js 3:** Digunakan sebagai *framework* antarmuka pengguna (UI).
     * **Ionic Framework 8.x:** Digunakan untuk membangun antarmuka mobile.
     * **Capacitor 7.x:** Digunakan sebagai mesin runtime untuk *deploy* aplikasi ke perangkat native (iOS/Android).
     * **TypeScript:** Digunakan untuk meningkatkan kualitas kode dan *type checking*.
+    * **Node.js:** Digunakan sebagai *runtime environment* untuk menjalankan tugas-tugas dasar JavaScript/TypeScript di `tugas1/`.
 
 ---
 
 ## 📂 Struktur Proyek
-
 Repositori ini terbagi menjadi folder-folder tugas:
 
 ### 1. `tugas1/` (Dasar JavaScript/TypeScript)
-
 Berisi file-file dasar yang berfokus pada logika pemrograman:
-
 * **`soal1.ts` / `soal1.js`:** Implementasi untuk mencetak pola segitiga angka, di mana tinggi segitiga ditentukan oleh digit terakhir NIM.
 * **`soal2.ts` / `soal2.js`:** Implementasi untuk mencetak deret aritmatika, di mana nilai awal dan *step* ditentukan dari digit NIM.
 * **`soal3.ts` / `soal3.js`:** Implementasi untuk mencari bilangan prima dalam rentang tertentu, yang ditentukan dari digit NIM.
 
 ### 2. `tugas2/` (Proyek Ionic - Cuaca Jakarta)
-
 Proyek Ionic/Vue yang mengambil data dan menampilkan prakiraan cuaca di Jakarta.
-
 * **Fungsionalitas Utama:** Mengambil data cuaca per jam dari **Open-Meteo API** (latitude -6.2, longitude 106.8) dan menampilkannya sebagai daftar jam dan suhu.
 * **Teknik:** Menggunakan `fetch` API, `ref` dan `onMounted` Vue 3 untuk manajemen state dan siklus hidup komponen.
 
 ### 3. `tugas3/` (Proyek Ionic - Data Cryptocurrency)
-
 Proyek Ionic/Vue yang mengambil data *real-time* cryptocurrency dan memiliki fitur konversi Rupiah.
 
 * **Fungsionalitas Utama:** Mengambil daftar koin dari **CoinLore API** dan kurs USD/IDR dari **Frankfurter API**.
@@ -46,32 +43,46 @@ Proyek Ionic/Vue yang mengambil data *real-time* cryptocurrency dan memiliki fit
 
 ---
 
-## ⚙️ Petunjuk Penggunaan (Proyek Ionic)
-
-Untuk menjalankan proyek **`tugas2`** atau **`tugas3`** secara lokal, ikuti langkah-langkah umum di bawah ini:
-
+## ⚙️ Petunjuk Penggunaan Untuk Tugas 1
+Untuk menjalankan proyek **`tugas1`** secara lokal, ikuti langkah-langkah umum di bawah ini:
 ### Persyaratan
+Pastikan **Node JS** dan **Typescript** telah terinstal di sistem.
+1. **Navigasi ke Folder**
+   ```
+   cd TUGAS_PBPB/tugas1
+   ```
+2. **Jalankan Perintah Typescript dan Javascript** dengan Gunakan perintah `tsc` diikuti nama file `(.ts)` kemudian gunakan perintah `node` diikuti nama file JavaScript `(.js)` untuk melihat output di terminal:
+   ```
+   tsc soal1.ts
+   node soal1.js
+   ```
+Untuk Soal2 & Soal3, bisa lakukan hal yang sama seperti `soal1` tadi. `tsc` berfungsi untuk Mengambil file kode sumber yang ditulis dalam TypeScript dan mengubahnya menjadi kode JavaScript. Lalu `node` berfungsi untuk menjalankan file JavaScript yang diberikan dan mengeksekusi kode di dalamnya.
 
+---
+
+## ⚙️ Petunjuk Penggunaan Untuk Tugas 2 & Tugas 3 (Proyek Ionic)
+Untuk menjalankan proyek **`tugas2`** atau **`tugas3`** secara lokal, ikuti langkah-langkah umum di bawah ini:
+### Persyaratan
 Pastikan Anda telah menginstal:
 * Node.js (disarankan versi LTS)
-* Git
+* Powershell/Terminal/Git
 * Android Studio (untuk deployment native Android)
 
 ### Instalasi dan Menjalankan
 
 1.  **Kloning Repositori & Navigasi:**
-    ```bash
+    ```
     git clone <URL_REPOSITORI_ANDA>
     cd TUGAS_PBPB/tugas2  # Ganti dengan 'tugas3' jika diperlukan
     ```
 
 2.  **Instal Dependensi:**
-    ```bash
+    ```
     npm install
     ```
 
 3.  **Jalankan Aplikasi di Browser (Development Server):**
-    ```bash
+    ```
     npm run dev
     ```
 
