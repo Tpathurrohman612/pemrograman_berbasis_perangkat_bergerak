@@ -1,4 +1,6 @@
-# 📱 Pemrograman Berbasis Perangkat Bergerak (PBPB)
+# 📱 PEMROGRAMAN BERBASIS PERANGKAT BERGERAK (WEB APPS MOBILE)
+
+https://youtube.com/playlist?list=PL2XqscR2fD8LGqg0SJOir43WDGWaEZu6Q&si=rOQErmMp8yeNVcyv
 
 ![TYPESCRIPT](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
